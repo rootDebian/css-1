@@ -1,0 +1,139 @@
+:root {
+    background-color: white;
+    color: black;
+    width: 1000px;
+}
+
+h1 {
+    background: blue;
+}
+
+.green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+.box p {
+    background: red;
+}
+
+.box div {
+    background: green;
+}
+
+.brown {
+    background: brown;
+    color: white;
+}
+
+ul>li {
+    background: red;
+}
+
+button.header-button+span {
+    background: red;
+}
+
+p.susid~p {
+    background: blue;
+    color: white;
+}
+
+.salo,
+#bread {
+    background: yellow;
+}
+
+div.first-task>ul>li:first-child {
+    color: white;
+}
+
+div.second-task>ul:first-child>li:first-child {
+    color: yellow;
+}
+
+div.third-task>ul:last-child>li:first-child {
+    background: yellow;
+}
+
+div.four-task>ul>li:last-child {
+    background: yellow;
+}
+
+div.five-task>ul:last-child>li:last-child {
+    color: white;
+}
+
+div.only-child-task div:only-child {
+    color: red;
+}
+
+div.seven-task p:first-of-type {
+    background: red;
+}
+
+div.eight-task p:last-of-type {
+    background: red;
+}
+
+div.nine-task div.text-wrapper p:only-of-type {
+    background: yellow;
+}
+
+div.lesson-three-task-one a[href] {
+    color: white;
+}
+
+ol.lesson-three-task-two li[value] {
+    color: yellow;
+}
+
+ol.lesson-three-task-three li[value='3'] {
+    background: red;
+}
+
+div.lesson-three-task-four button[class~='primary'] {
+    background: blue;
+}
+
+div.lesson-three-task-five button[class|='secondary'] {
+    background: red;
+}
+
+div.lesson-three-task-six li[class^='b'] {
+    color: green;
+    background: white;
+}
+
+div.lesson-three-task-seven li[class*='on'] {
+    color: green;
+    background: white;
+}
+
+div.lesson-three-task-eight span[class$='s'] {
+    color: blue;
+    background: white;
+}
+
+div.lesson-three-task-nine h2::first-letter {
+    color: red;
+}
+
+div.lesson-three-task-ten p::first-line {
+    background: yellow;
+}
+
+div.lesson-three-task-eleven input::placeholder {
+    background-color: red;
+}
+
+div.lesson-three-task-twelve li::before {
+    content: '➤';
+}
+
+div.lesson-three-task-thirteen li::after {
+    content: '➤';
+}
